@@ -10,21 +10,23 @@
 + [Django3](https://docs.djangoproject.com)
 + [Django-rest-framework](https://www.django-rest-framework.org/)
 
-### install requirements
+#### install requirements
 ```bash
 (venv)name@host:~/poject/ pip3 install -r requirements.txt
 ```
-
-### run
+#### run
 ```bash
 (venv)name@host:~/poject/ ./manage runserver
 ```
-
-### API endpoints
+#### API endpoints
 ```bash
 http://localhost:8080/api/admin/
 http://localhost:8080/api/lessons/
 http://localhost:8080/api/teachers/
+```
+#### Get data
+```bash
+curl http://localhost:8080/api/lessons/
 ```
 
 ---
